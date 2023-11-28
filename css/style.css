@@ -238,7 +238,12 @@ nav ul li a.active::after
  border-radius: 50%;
  font-size: 14px;
 }
-
+@media screen and (max-width:768px){
+    .personal_data h2 span 
+    {
+        font-size: 2rem;
+    }
+}
 /* ******end header***** */
 /* ******start about***** */
 #about h3
@@ -695,3 +700,7 @@ footer p
     transform: translateX(-50%);
 }
 /* *****end modal***** */
+
+
+/* ****media query */
+
